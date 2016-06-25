@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity{
                 //hasilOrder();
 
                 //hitung harga
-                hasil = quantity * 5 ;
+                hasil = 5 ;
 
                 if(whippedCream.isChecked()){
                     hasWhippedCream = true;
@@ -59,6 +59,8 @@ public class MainActivity extends AppCompatActivity{
                 }else{
                     hasCokelat = false;
                 }
+
+                hasil = hasil * quantity;
 
                 String nama = name.getText().toString();
 
